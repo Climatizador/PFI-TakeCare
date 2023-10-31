@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Cadastro_3">
+
+    <TextView
+        android:id="@+id/text_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Preencha as informações"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginVertical="16dp"
+        android:text="Adicione a quantidade de crianças e suas respectivas informações!" />
+
+    <EditText
+        android:id="@+id/idade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/edit_text_login"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Idade da criança"
+        android:maxLines="1"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/necessidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:background="@drawable/edit_text_login"
+        android:hint="Necessidade Especial (Opicional)"
+        android:inputType="textMultiLine"
+        android:maxLines="16"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/add_crianca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="30dp"
+        android:background="@drawable/button_login"
+        android:text="Adicionar Criança" />
+
+    <Button
+        android:id="@+id/concluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:background="@drawable/button_login"
+        android:text="concluir" />
+
+
+</LinearLayout>

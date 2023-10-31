@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "95907323469",
+    "project_id": "pfi-test",
+    "storage_bucket": "pfi-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95907323469:android:bc0c5caaad353d492b4604",
+        "android_client_info": {
+          "package_name": "com.example.pfi_tesst"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95907323469-1q6thmcv9vbk7s7kut9r5pshmgdasdkq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVLYQciy7psEdcI6UfwPG5xlSh_4b1TFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95907323469-1q6thmcv9vbk7s7kut9r5pshmgdasdkq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

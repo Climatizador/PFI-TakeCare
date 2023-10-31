@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="8dp" /> <!-- O valor "20dp" define o raio dos cantos -->
+    <solid android:color="@color/purple_500" /> <!-- Defina sua cor de fundo aqui -->
+</shape>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Cadastro">
+
+    <TextView
+        android:id="@+id/text_cadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Cadastro"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nome_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Insira os dados requisitados"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/cadastro_nome_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nome de usuário"
+        android:background="@drawable/edit_text_login"
+        android:maxLines="1"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:padding="15dp"/>
+
+    <Spinner
+        android:id="@+id/tipo_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/tipo_user"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:padding="15dp"
+        android:background="@drawable/spinner_cadastro"
+        />
+
+    <EditText
+        android:id="@+id/cadastro_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/edit_text_login"
+        android:ems="10"
+        android:hint="DD/YY/AAAA"
+        android:inputType="none"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:focusable="false" />
+
+
+    <!--<EditText
+        android:id="@+id/cadastro_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/edit_text_login"
+        android:ems="10"
+        android:hint="DD/YY/AAAA"
+        android:inputType="date"
+        android:maxLines="1"
+        android:padding="15dp" /> -->
+
+    <EditText
+        android:id="@+id/cadastro_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="E-mail"
+        android:background="@drawable/edit_text_login"
+        android:maxLines="1"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:padding="15dp"/>
+
+    <EditText
+        android:id="@+id/cadastro_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Senha"
+        android:background="@drawable/edit_text_login"
+        android:maxLines="1"
+        android:maxLength="20"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/cadastro_continuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/button_login"
+        android:text="Continuar" />
+
+    <TextView
+        android:id="@+id/possui_conta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginVertical="10dp"
+        android:text="Já possui uma conta?"
+        />
+
+</LinearLayout>
